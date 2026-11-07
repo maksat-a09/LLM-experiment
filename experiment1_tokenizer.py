@@ -11,6 +11,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 PHRASES = {
     "en": "Connect the repository to this folder",
     "ru": "Подключи репозиторий к этой папке",
+    "ru_translit": "Podklyuchi repozitoriy k etoy papke",
+    "kk": "Репозиторийді осы қалтаға қос",
 }
 ENCODINGS = ["cl100k_base", "o200k_base"]
 
@@ -28,8 +30,11 @@ def show(enc_name: str) -> None:
         print(f"  токены: {pieces}")
         print(f"  id:     {ids}")
     en = len(enc.encode(PHRASES["en"]))
-    ru = len(enc.encode(PHRASES["ru"]))
-    print(f"Отношение ru/en по токенам: {ru / en:.2f}\n")
+    for lang in PHRASES:
+        if lang != "en":
+            n = len(enc.encode(PHRASES[lang]))
+            print(f"Отношение {lang}/en по токенам: {n / en:.2f}")
+    print()
 
 
 if __name__ == "__main__":
