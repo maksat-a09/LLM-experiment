@@ -76,10 +76,12 @@
 Модели: `claude-fable-5-2`, `claude-opus-5-5`, `claude-sonnet-5-5`, `claude-haiku-5-5`
 и две старые для сравнения (`claude-opus-4-6`, `claude-haiku-4-5`).
 
-**Статус:** посчитана только базовая линия tiktoken. **Токены Claude пока не посчитаны:**
-`ANTHROPIC_API_KEY` не был виден процессам, из которых запускался скрипт (ключ был задан
-только в одной вкладке терминала). Чтобы получить числа Claude, надо запустить
-`python experiment3_claude_tokenizer.py` в оболочке, где ключ задан. Скрипт перезапишет `results/`.
+**Статус:** посчитана только базовая линия tiktoken. **Токены Claude пока не посчитаны.**
+Скрипт запускался с рабочим ключом, но API ответил всем шести моделям ошибкой 400
+`Your credit balance is too low to access the Anthropic API`: эндпоинт `count_tokens`
+не работает на аккаунте без пополненного баланса в Console (Plans & Billing).
+Подробности по моделям — в `results/experiment3_results.md`. После пополнения баланса достаточно
+повторить `python experiment3_claude_tokenizer.py`: он перезапишет `results/`.
 
 ### Результаты tiktoken (токенов на текст)
 

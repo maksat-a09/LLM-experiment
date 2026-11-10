@@ -40,3 +40,12 @@
 | greeting | ru | 2.75 | 1.50 |
 | greeting | ru_translit | 2.00 | 1.75 |
 | greeting | kk | 3.38 | 1.62 |
+
+## Модели, которые не удалось проверить
+
+- `claude-fable-5-2`: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguS5Si97K2sYSUqpVuG9'}
+- `claude-opus-5-5`: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguS5UG9QTLPFX3ZHiTd9'}
+- `claude-sonnet-5-5`: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguS5WcHUu7ofjdHyaye2'}
+- `claude-haiku-5-5`: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguS5Xb5jYjbwH5SPEXE6'}
+- `claude-opus-4-6`: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguS5YZcgSL6bGv4JJDNe'}
+- `claude-haiku-4-5`: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguS5ZYQ3YjVWg2siYao1'}
