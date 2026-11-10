@@ -1,0 +1,179 @@
+{
+  "tests": [
+    {
+      "id": "short_en",
+      "group": "short",
+      "lang": "en",
+      "text": "Connect the repository to this folder"
+    },
+    {
+      "id": "short_ru",
+      "group": "short",
+      "lang": "ru",
+      "text": "Подключи репозиторий к этой папке"
+    },
+    {
+      "id": "short_ru_translit",
+      "group": "short",
+      "lang": "ru_translit",
+      "text": "Podklyuchi repozitoriy k etoy papke"
+    },
+    {
+      "id": "short_kk",
+      "group": "short",
+      "lang": "kk",
+      "text": "Репозиторийді осы қалтаға қос"
+    },
+    {
+      "id": "paragraph_en",
+      "group": "paragraph",
+      "lang": "en",
+      "text": "Tokens are pieces of text that a language model works with. A token can be a syllable, a word, or a punctuation mark. The more tokens a text has, the more it costs to process."
+    },
+    {
+      "id": "paragraph_ru",
+      "group": "paragraph",
+      "lang": "ru",
+      "text": "Токены — это кусочки текста, с которыми работает языковая модель. Токеном может быть слог, слово или знак препинания. Чем больше токенов в тексте, тем дороже его обработка."
+    },
+    {
+      "id": "paragraph_ru_translit",
+      "group": "paragraph",
+      "lang": "ru_translit",
+      "text": "Tokeny — eto kusochki teksta, s kotorymi rabotaet yazykovaya model. Tokenom mozhet byt slog, slovo ili znak prepinaniya. Chem bolshe tokenov v tekste, tem dorozhe ego obrabotka."
+    },
+    {
+      "id": "paragraph_kk",
+      "group": "paragraph",
+      "lang": "kk",
+      "text": "Токендер — тілдік модель жұмыс істейтін мәтін бөліктері. Токен буын, сөз немесе тыныс белгісі болуы мүмкін. Мәтінде токен неғұрлым көп болса, оны өңдеу соғұрлым қымбат."
+    },
+    {
+      "id": "greeting_en",
+      "group": "greeting",
+      "lang": "en",
+      "text": "Good morning! How are you today?"
+    },
+    {
+      "id": "greeting_ru",
+      "group": "greeting",
+      "lang": "ru",
+      "text": "Доброе утро! Как у тебя дела сегодня?"
+    },
+    {
+      "id": "greeting_ru_translit",
+      "group": "greeting",
+      "lang": "ru_translit",
+      "text": "Dobroe utro! Kak u tebya dela segodnya?"
+    },
+    {
+      "id": "greeting_kk",
+      "group": "greeting",
+      "lang": "kk",
+      "text": "Қайырлы таң! Бүгін қалайсың?"
+    },
+    {
+      "id": "kk_letters",
+      "group": "single",
+      "lang": "kk",
+      "text": "ә ғ қ ң ө ұ ү һ і"
+    },
+    {
+      "id": "kk_word_qazaqstan",
+      "group": "single",
+      "lang": "kk",
+      "text": "Қазақстан"
+    },
+    {
+      "id": "ru_long_word",
+      "group": "single",
+      "lang": "ru",
+      "text": "Достопримечательность"
+    },
+    {
+      "id": "en_long_word",
+      "group": "single",
+      "lang": "en",
+      "text": "Internationalization"
+    },
+    {
+      "id": "code_python",
+      "group": "single",
+      "lang": "code",
+      "text": "def add(a, b):\n    return a + b\n\nprint(add(2, 3))"
+    },
+    {
+      "id": "json",
+      "group": "single",
+      "lang": "code",
+      "text": "{\"name\": \"Maksat\", \"age\": 30, \"tags\": [\"llm\", \"tokens\"]}"
+    },
+    {
+      "id": "url",
+      "group": "single",
+      "lang": "code",
+      "text": "https://github.com/maksat-a09/LLM-experiment"
+    },
+    {
+      "id": "numbers",
+      "group": "single",
+      "lang": "digits",
+      "text": "3.14159265358979 1234567890 2026-11-10"
+    },
+    {
+      "id": "emoji_mixed",
+      "group": "single",
+      "lang": "mixed",
+      "text": "Привет! 👋 Hello! 🚀 Сәлем! 🙂"
+    }
+  ],
+  "counts": {
+    "tiktoken:cl100k_base": {
+      "short_en": 6,
+      "short_ru": 16,
+      "short_ru_translit": 13,
+      "short_kk": 22,
+      "paragraph_en": 42,
+      "paragraph_ru": 70,
+      "paragraph_ru_translit": 62,
+      "paragraph_kk": 133,
+      "greeting_en": 8,
+      "greeting_ru": 22,
+      "greeting_ru_translit": 16,
+      "greeting_kk": 27,
+      "kk_letters": 24,
+      "kk_word_qazaqstan": 7,
+      "ru_long_word": 8,
+      "en_long_word": 2,
+      "code_python": 20,
+      "json": 24,
+      "url": 14,
+      "numbers": 19,
+      "emoji_mixed": 17
+    },
+    "tiktoken:o200k_base": {
+      "short_en": 6,
+      "short_ru": 11,
+      "short_ru_translit": 13,
+      "short_kk": 11,
+      "paragraph_en": 42,
+      "paragraph_ru": 49,
+      "paragraph_ru_translit": 56,
+      "paragraph_kk": 55,
+      "greeting_en": 8,
+      "greeting_ru": 12,
+      "greeting_ru_translit": 14,
+      "greeting_kk": 13,
+      "kk_letters": 9,
+      "kk_word_qazaqstan": 1,
+      "ru_long_word": 6,
+      "en_long_word": 2,
+      "code_python": 20,
+      "json": 25,
+      "url": 14,
+      "numbers": 19,
+      "emoji_mixed": 14
+    }
+  },
+  "errors": {}
+}
